@@ -1,5 +1,5 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Otimização das Pressões Interestágio de Compressores Centrífugos
+# Casos de otimização de Performance de Compressores Centrífugos
 
 #### Aluno: [Thiago César Emrich](https://github.com/thiagoemrich00)
 #### Orientadora: [Prof. Ana Carolina Abreu](https://github.com/acarolina1612?tab=overview&from=2024-12-01&to=2024-12-31).
