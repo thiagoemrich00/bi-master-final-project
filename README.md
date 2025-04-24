@@ -3,8 +3,8 @@ Trabalho de Conclusão do Curso BI MASTER - ICA - PUC -RIO
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
 # Nome do projeto
 
-#### Aluno: [Nome](https://github.com/link_do_github)
-#### Orientadora: [Nome Sobrenome](https://github.com/link_do_github).
+#### Aluno: [Thiago César Emrich]([https://github.com/link_do_github](https://github.com/thiagoemrich00))
+#### Orientadora: [Prof. Ana Carolina Abreu]([https://github.com/link_do_github](https://github.com/acarolina1612?tab=overview&from=2024-12-01&to=2024-12-31)).
 #### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
 ---
