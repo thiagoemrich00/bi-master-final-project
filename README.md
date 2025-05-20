@@ -31,7 +31,8 @@ A otimização desse parâmetro contribui diretamente para a confiabilidade, seg
 
 Os cálculos de performance de compressores centrífugos estão sempre associados a curvas de performance, a seguir temos as curvas referentes ao nosso modelo:
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/4bc51195-e6b7-4c40-bae4-b963c0e39351)
+
 
 
 
