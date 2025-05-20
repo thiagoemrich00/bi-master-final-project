@@ -25,8 +25,6 @@ Em sistemas que utilizam controle de capacidade por válvula de estrangulamento,
 
 A otimização desse parâmetro contribui diretamente para a confiabilidade, segurança e eficiência do sistema de compressão.
 
-
-
 ### 1. Introdução
 
 Os cálculos de desempenho de compressores centrífugos estão intrinsecamente relacionados às suas curvas características de performance. A Figura a seguir apresenta as curvas de desempenho correspondentes ao modelo analisado:
@@ -58,7 +56,10 @@ A tabela a seguir mostra os resultados das otimizações realizadas, onde foram 
 
 ### 4. Conclusões
 
-Podemos concluir que quanto menor o estrangulamento da pressão na válvula de controle de vazão, ouseja, menor a pressão de sucção da 1ª seção, teremos 
+Do ponto de vista de processamento do gás, à medida que se reduz o estrangulamento na válvula de controle de vazão — ou seja, quando a pressão de sucção da primeira seção é diminuída — observa-se uma redução nas vazões mássicas processadas por ambas as seções do compressor, bem como uma diminuição na pressão na região inter-seções.
+
+Já do ponto de vista do processo de otimização, este trabalho apresenta significativa relevância nas etapas de projeto conceitual e básico, ao proporcionar estimativas mais precisas e aproximações realistas das condições operacionais de compressores centrífugos de dupla seção.
+
 ---
 
 Matrícula: 222.100.476
