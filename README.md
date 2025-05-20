@@ -35,21 +35,23 @@ Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod 
 
 ### 1. Introdução
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+Este estudo propõe uma abordagem de otimização para a determinação da pressão intermediária entre as seções de compressão em compressores de gás úmido, empregados em unidades de processamento de petróleo.
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+Em sistemas que utilizam controle de capacidade por válvula de estrangulamento, a variação da pressão de sucção resulta em novas distribuições de pressão ao longo das diferentes seções do compressor. Nessa configuração, a definição adequada da pressão entre seções torna-se essencial não apenas para assegurar a integridade operacional do equipamento, mas também para o correto estabelecimento dos limites de alarme e disparo (trip) dos vasos associados ao estágio intermediário.
+
+A otimização desse parâmetro contribui diretamente para a confiabilidade, segurança e eficiência do sistema de compressão.
 
 ### 2. Modelagem
 
 Para a modelagem do problema foi utilizado a biblioteca do python [CCP](https://ccp-centrifugal-compressor-performance.readthedocs.io/en/latest/index.html)  que realiza cálculos de performance para compressores centrífugos. O código utiliza CoolProp / REFPROP para realizar os cálculos de propriedades dos gases e misturas.
 
-Para a otimização utilizamos a classe [differential evolution](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.differential_evolution.html) do SciPy
+Para a otimização utilizamos a função [differential evolution](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.differential_evolution.html) do SciPy.
+
+Esta função encontra o mínimo global de uma função multivariada utilizando o método de evolução diferencial. O algoritmo é estocástico, ou seja, utiliza abordagens probabilísticas em vez de métodos baseados em gradientes. Isso o torna adequado para explorar grandes espaços de soluções, mesmo em problemas complexos e com múltiplos mínimos locais. Por outro lado, tende a exigir um número maior de avaliações da função quando comparado a métodos tradicionais baseados em gradiente.
 
 ### 3. Resultados
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+Lorem ipsum dolor sit ame
 
 ![image](https://github.com/user-attachments/assets/e0c53baa-6dea-483f-a4f8-7dfd012b86ac)
 
