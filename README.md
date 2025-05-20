@@ -2,7 +2,7 @@
 # Casos de otimização de Performance de Compressores Centrífugos
 
 #### Aluno: [Thiago César Emrich](https://github.com/thiagoemrich00)
-#### Orientadora: [Prof. Ana Carolina Abreu](https://github.com/acarolina1612?tab=overview&from=2024-12-01&to=2024-12-31).
+#### Orientadora: [Prof. Ana Carolina Abreu](https://github.com/acarolina1612?tab=overview&from=2024-12-01&to=2024-12-31)
 <!-- Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
 ---
