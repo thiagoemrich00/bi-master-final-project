@@ -29,12 +29,13 @@ A otimização desse parâmetro contribui diretamente para a confiabilidade, seg
 
 ### 1. Introdução
 
-Os cálculos de performance de compressores centrífugos estão sempre associados a curvas de performance, a seguir temos as curvas referentes ao nosso modelo:
+Os cálculos de desempenho de compressores centrífugos estão intrinsecamente relacionados às suas curvas características de performance. A Figura a seguir apresenta as curvas de desempenho correspondentes ao modelo analisado:
 
 ![image](https://github.com/user-attachments/assets/4bc51195-e6b7-4c40-bae4-b963c0e39351)
 
+Essas curvas representam a relação entre o estado termodinâmico do gás na sucção (caracterizado por variáveis como pressão, temperatura, entalpia, entropia e massa específica) e seu estado termodinâmico após a compressão, ou seja, na descarga do compressor.
 
-
+Em compressores de gás úmido, é comum a presença de duas seções de compressão integradas em uma mesma carcaça. Essas seções são interdependentes, uma vez que as condições de sucção da segunda seção são diretamente influenciadas pelas condições de descarga da primeira. Essa interdependência deve ser cuidadosamente considerada nas análises de desempenho, de modo a garantir a operação segura e eficiente do equipamento.
 
 ### 2. Modelagem
 
@@ -44,19 +45,20 @@ Para a otimização utilizamos a função [differential evolution](https://docs.
 
 Esta função encontra o mínimo global de uma função multivariada utilizando o método de evolução diferencial. O algoritmo é estocástico, ou seja, utiliza abordagens probabilísticas em vez de métodos baseados em gradientes. Isso o torna adequado para explorar grandes espaços de soluções, mesmo em problemas complexos e com múltiplos mínimos locais. Por outro lado, tende a exigir um número maior de avaliações da função quando comparado a métodos tradicionais baseados em gradiente.
 
+A otimização realizada possui as seguintes restrições: Presssão de Sucção da 1ª Seção, Pressão de descarga na 2ª Seção e perda de carga no trocador de calor inter-seção, porém podemos ter outros, como rotação, temperatura ou delta de temperatura no trocador de calor, torque, potência por seção. As possibilidades de otimização são bem abrangentes.
+
+A função objetivo construída para o nosso caso em questão foi a minimização da subtração pressão de descarga na 2ª seção imposta pela pressão de descarga na 2ª seção calculada através do CCP.
+
 ### 3. Resultados
 
-Lorem ipsum dolor sit ame
+A tabela a seguir mostra os resultados das otimizações realizadas, onde foram variadas as pressões de entrada da primeira seção:
 
 ![image](https://github.com/user-attachments/assets/e0c53baa-6dea-483f-a4f8-7dfd012b86ac)
 
 
 ### 4. Conclusões
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
-
+Podemos concluir que quanto menor o estrangulamento da pressão na válvula de controle de vazão, ouseja, menor a pressão de sucção da 1ª seção, teremos 
 ---
 
 Matrícula: 222.100.476
