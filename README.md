@@ -13,8 +13,6 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 - [Link para o código](https://github.com/thiagoemrich00/bi-master-final-project/blob/main/otimizacao_pressao_intersecao.ipynb). <!-- caso não aplicável, remover esta linha -->
 
 
-
-
 ---
 
 ### Resumo
@@ -24,6 +22,9 @@ Este estudo propõe uma abordagem de otimização para a determinação da press
 Em sistemas que utilizam controle de capacidade por válvula de estrangulamento, a variação da pressão de sucção resulta em novas distribuições de pressão ao longo das diferentes seções do compressor. Nessa configuração, a definição adequada da pressão entre seções torna-se essencial não apenas para assegurar a integridade operacional do equipamento, mas também para o correto estabelecimento dos limites de alarme e disparo (trip) dos vasos associados ao estágio intermediário.
 
 A otimização desse parâmetro contribui diretamente para a confiabilidade, segurança e eficiência do sistema de compressão.
+
+![image](https://github.com/user-attachments/assets/3efad77c-f34a-4bfb-a0fd-89f99d91a229)
+
 
 ### 1. Introdução
 
