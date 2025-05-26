@@ -44,7 +44,7 @@ Para a otimização utilizamos a função [differential evolution](https://docs.
 
 Esta função encontra o mínimo global de uma função multivariada utilizando o método de evolução diferencial. O algoritmo é estocástico, ou seja, utiliza abordagens probabilísticas em vez de métodos baseados em gradientes. Isso o torna adequado para explorar grandes espaços de soluções, mesmo em problemas complexos e com múltiplos mínimos locais. Por outro lado, tende a exigir um número maior de avaliações da função quando comparado a métodos tradicionais baseados em gradiente.
 
-A otimização realizada possui as seguintes restrições: Presssão de Sucção da 1ª Seção, Pressão de descarga na 2ª Seção e perda de carga no trocador de calor inter-seção, porém podemos ter outros, como rotação, temperatura ou delta de temperatura no trocador de calor, torque, potência por seção. As possibilidades de otimização são bem abrangentes.
+A otimização realizada possui as seguintes restrições: Presssão de Sucção da 1ª Seção, Pressão de descarga na 2ª Seção, Temperatura de sucção na 2ª seção e perda de carga no trocador de calor inter-seção, porém podemos ter outros, como rotação, temperatura ou delta de temperatura no trocador de calor, torque, potência por seção. As possibilidades de otimização são bem abrangentes.
 
 A função objetivo construída para o nosso caso em questão foi a minimização da subtração pressão de descarga na 2ª seção imposta pela pressão de descarga na 2ª seção calculada através do CCP.
 
