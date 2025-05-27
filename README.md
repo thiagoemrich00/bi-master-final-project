@@ -28,7 +28,7 @@ O presente estudo propõe uma abordagem de otimização voltada à determinaçã
 
 ### 1. Introdução
 
-Os cálculos de desempenho de compressores centrífugos estão intrinsecamente relacionados às suas curvas características de performance. A Figura a seguir apresenta as curvas de desempenho correspondentes ao modelo analisado:
+Os cálculos de desempenho de compressores centrífugos estão intrinsecamente relacionados às suas curvas características de performance. As Figuras a seguir são exemplos de curvas de desempenho correspondentes à uma seção de compressão:
 
 ![image](https://github.com/user-attachments/assets/4bc51195-e6b7-4c40-bae4-b963c0e39351)
 
