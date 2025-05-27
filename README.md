@@ -10,18 +10,18 @@
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
 <!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
-- [Link para o código](https://github.com/thiagoemrich00/bi-master-final-project/blob/main/otimizacao_pressao_intersecao.ipynb). <!-- caso não aplicável, remover esta linha -->
-
+- [Link para o código de variação da Pressão de Sucção na 1ª Seção](https://github.com/thiagoemrich00/bi-master-final-project/blob/main/otimizacao_pressao_intersecao.ipynb). <!-- caso não aplicável, remover esta linha -->
+- [Link para o código de variação da Temperatura do Interseção (Sucção na 2ª Seção)](https://github.com/thiagoemrich00/bi-master-final-project/blob/main/otimizacao_pressao_intersecao_Ts_2_45_C.ipynb).
 
 ---
 
 ### Resumo
 
-Este estudo propõe uma abordagem de otimização para a determinação da pressão intermediária entre as seções de compressão em compressores de gás úmido, empregados em unidades de processamento de petróleo.
-
 Em sistemas que utilizam controle de capacidade por válvula de estrangulamento, a variação da pressão de sucção resulta em novas distribuições de pressão ao longo das diferentes seções do compressor. Nessa configuração, a definição adequada da pressão entre seções torna-se essencial não apenas para assegurar a integridade operacional do equipamento, mas também para o correto estabelecimento dos limites de alarme e disparo (trip) dos vasos associados ao estágio intermediário.
 
-A otimização desse parâmetro contribui diretamente para a confiabilidade, segurança e eficiência do sistema de compressão.
+Embora os fabricantes sejam os responsáveis pela definição dos pontos operacionais dos compressores, é comum que, ao longo da operação dessas máquinas, ocorram variações nas condições de processo. Nesse contexto, a otimização dos parâmetros operacionais torna-se fundamental para garantir a confiabilidade, a segurança e a eficiência do sistema de compressão.
+
+O presente estudo propõe uma abordagem de otimização voltada à determinação da pressão intermediária entre as seções de compressão em compressores de gás úmido, utilizados em unidades de processamento de petróleo. A metodologia adotada permite a flexibilização de variáveis operacionais, como rotação, temperatura na seção intermediária e composição do gás, entre outras, visando a adaptação dinâmica do sistema às diferentes condições de operação.
 
 ![image](https://github.com/user-attachments/assets/3efad77c-f34a-4bfb-a0fd-89f99d91a229)
 
